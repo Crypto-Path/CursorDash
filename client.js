@@ -1,7 +1,7 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
-const socket = io('https://corsproxy.io/?https://cursordash.schiytu37.repl.co'); // Replace with your Replit server URL
+const socket = io('https://cursordash.schiytu37.repl.co'); // Replace with your Replit server URL
 
 const playerCursors = {};
 
